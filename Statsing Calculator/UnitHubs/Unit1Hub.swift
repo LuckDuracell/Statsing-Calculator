@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct Unit1Hub: View {
+    
+    @FocusState var showKeyboard: Bool
+    
     var body: some View {
         ZStack {
             BG()
@@ -19,36 +22,12 @@ struct Unit1Hub: View {
                         PrimaryButton(text: "Inverse Norm")
                     })
                     NavigationLink(destination: {
-                        
+                        NormalCDF(showKeyboard: _showKeyboard)
                     }, label: {
                         PrimaryButton(text: "Normal CDF")
                     })
                 }
-                HStack {
-                    NavigationLink(destination: {
-                        
-                    }, label: {
-                        PrimaryButton(text: "Inverse Norm")
-                    })
-                    NavigationLink(destination: {
-                        
-                    }, label: {
-                        PrimaryButton(text: "Normal CDF")
-                    })
-                }
-                HStack {
-                    NavigationLink(destination: {
-                        
-                    }, label: {
-                        PrimaryButton(text: "Inverse Norm")
-                    })
-                    NavigationLink(destination: {
-                        
-                    }, label: {
-                        PrimaryButton(text: "Normal CDF")
-                    })
-                }
-            }
+            } .padding(.horizontal)
         }
     }
 }

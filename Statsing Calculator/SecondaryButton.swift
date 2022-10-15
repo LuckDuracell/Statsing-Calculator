@@ -1,20 +1,20 @@
 //
-//  PrimaryButton.swift
+//  SecondaryButton.swift
 //  Statsing Calculator
 //
-//  Created by Luke Drushell on 10/13/22.
+//  Created by Luke Drushell on 10/14/22.
 //
 
 import SwiftUI
 
-struct PrimaryButton: View {
+struct SecondaryButton: View {
     
     let text: String
     let width = UIScreen.main.bounds.width
     
     var body: some View {
         Text(text)
-            .frame(width: width * 0.4, height: width * 0.25)
+            .frame(width: width * 0.9, height: width * 0.15)
             .background(
                 .regularMaterial
             )
@@ -34,12 +34,8 @@ struct PrimaryButton: View {
     }
 }
 
-struct PrimaryButton_Previews: PreviewProvider {
+struct SecondaryButton_Previews: PreviewProvider {
     static var previews: some View {
-        ZStack {
-            BG()
-            PrimaryButton(text: "Inverse Norm")
-                .preferredColorScheme(.dark)
-        }
+        SecondaryButton(text: "Calculate")
     }
 }

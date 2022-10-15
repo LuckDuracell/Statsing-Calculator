@@ -16,6 +16,10 @@
 		0A21536D28F73C5D00C68DDB /* Statsing_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A21536C28F73C5D00C68DDB /* Statsing_CalculatorUITestsLaunchTests.swift */; };
 		0A21537A28F73C9600C68DDB /* UnitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A21537928F73C9600C68DDB /* UnitLabel.swift */; };
 		0A21537C28F7408300C68DDB /* BG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A21537B28F7408300C68DDB /* BG.swift */; };
+		0A526D6E28FA4ADC00F55A74 /* NormalCDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A526D6D28FA4ADC00F55A74 /* NormalCDF.swift */; };
+		0A526D7128FA4B7300F55A74 /* Extensions and Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A526D7028FA4B7300F55A74 /* Extensions and Functions.swift */; };
+		0A526D7328FA4FC900F55A74 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A526D7228FA4FC900F55A74 /* SecondaryButton.swift */; };
+		0A526D8128FA5B5100F55A74 /* StatKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0A526D8028FA5B5100F55A74 /* StatKit */; };
 		0AB47C8E28F7FDB500BE2943 /* PageDeciders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB47C8D28F7FDB500BE2943 /* PageDeciders.swift */; };
 		0AB47C9228F7FEF900BE2943 /* Unit1Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB47C9128F7FEF900BE2943 /* Unit1Hub.swift */; };
 		0AB47C9428F7FF0400BE2943 /* Unit2Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB47C9328F7FF0400BE2943 /* Unit2Hub.swift */; };
@@ -27,6 +31,8 @@
 		0AB47CA028F7FF2100BE2943 /* Unit8Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB47C9F28F7FF2100BE2943 /* Unit8Hub.swift */; };
 		0AB47CA228F7FF2900BE2943 /* Unit9Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB47CA128F7FF2900BE2943 /* Unit9Hub.swift */; };
 		0AB47CA528F800DF00BE2943 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB47CA428F800DF00BE2943 /* PrimaryButton.swift */; };
+		0ADE8F1128FA7B0D00D720E1 /* InvNorm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADE8F1028FA7B0D00D720E1 /* InvNorm.swift */; };
+		0ADE8F1328FA7EDF00D720E1 /* InverseNormalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADE8F1228FA7EDF00D720E1 /* InverseNormalFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,9 @@
 		0A21536C28F73C5D00C68DDB /* Statsing_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statsing_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0A21537928F73C9600C68DDB /* UnitLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitLabel.swift; sourceTree = "<group>"; };
 		0A21537B28F7408300C68DDB /* BG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BG.swift; sourceTree = "<group>"; };
+		0A526D6D28FA4ADC00F55A74 /* NormalCDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalCDF.swift; sourceTree = "<group>"; };
+		0A526D7028FA4B7300F55A74 /* Extensions and Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions and Functions.swift"; sourceTree = "<group>"; };
+		0A526D7228FA4FC900F55A74 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		0AB47C8D28F7FDB500BE2943 /* PageDeciders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDeciders.swift; sourceTree = "<group>"; };
 		0AB47C9128F7FEF900BE2943 /* Unit1Hub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit1Hub.swift; sourceTree = "<group>"; };
 		0AB47C9328F7FF0400BE2943 /* Unit2Hub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit2Hub.swift; sourceTree = "<group>"; };
@@ -70,6 +79,8 @@
 		0AB47C9F28F7FF2100BE2943 /* Unit8Hub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit8Hub.swift; sourceTree = "<group>"; };
 		0AB47CA128F7FF2900BE2943 /* Unit9Hub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit9Hub.swift; sourceTree = "<group>"; };
 		0AB47CA428F800DF00BE2943 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		0ADE8F1028FA7B0D00D720E1 /* InvNorm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvNorm.swift; sourceTree = "<group>"; };
+		0ADE8F1228FA7EDF00D720E1 /* InverseNormalFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverseNormalFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A526D8128FA5B5100F55A74 /* StatKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,9 +134,11 @@
 			children = (
 				0A21534F28F73C5A00C68DDB /* Statsing_CalculatorApp.swift */,
 				0A21535128F73C5A00C68DDB /* ContentView.swift */,
+				0A526D6F28FA4AE400F55A74 /* Tools */,
 				0AB47CA328F7FF7500BE2943 /* UnitHubs */,
 				0A21537B28F7408300C68DDB /* BG.swift */,
 				0AB47CA428F800DF00BE2943 /* PrimaryButton.swift */,
+				0A526D7228FA4FC900F55A74 /* SecondaryButton.swift */,
 				0A21537928F73C9600C68DDB /* UnitLabel.swift */,
 				0A21535328F73C5D00C68DDB /* Assets.xcassets */,
 				0A21535528F73C5D00C68DDB /* Preview Content */,
@@ -155,6 +169,17 @@
 				0A21536C28F73C5D00C68DDB /* Statsing_CalculatorUITestsLaunchTests.swift */,
 			);
 			path = "Statsing CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		0A526D6F28FA4AE400F55A74 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0A526D6D28FA4ADC00F55A74 /* NormalCDF.swift */,
+				0ADE8F1028FA7B0D00D720E1 /* InvNorm.swift */,
+				0ADE8F1228FA7EDF00D720E1 /* InverseNormalFunction.swift */,
+				0A526D7028FA4B7300F55A74 /* Extensions and Functions.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		0AB47CA328F7FF7500BE2943 /* UnitHubs */ = {
@@ -190,6 +215,9 @@
 			dependencies = (
 			);
 			name = "Statsing Calculator";
+			packageProductDependencies = (
+				0A526D8028FA5B5100F55A74 /* StatKit */,
+			);
 			productName = "Statsing Calculator";
 			productReference = 0A21534C28F73C5A00C68DDB /* Statsing Calculator.app */;
 			productType = "com.apple.product-type.application";
@@ -262,6 +290,9 @@
 				Base,
 			);
 			mainGroup = 0A21534328F73C5A00C68DDB;
+			packageReferences = (
+				0A526D7F28FA5B5100F55A74 /* XCRemoteSwiftPackageReference "StatKit" */,
+			);
 			productRefGroup = 0A21534D28F73C5A00C68DDB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -304,17 +335,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A526D7328FA4FC900F55A74 /* SecondaryButton.swift in Sources */,
+				0A526D6E28FA4ADC00F55A74 /* NormalCDF.swift in Sources */,
 				0A21537C28F7408300C68DDB /* BG.swift in Sources */,
 				0AB47C9828F7FF0F00BE2943 /* Unit4Hub.swift in Sources */,
+				0ADE8F1128FA7B0D00D720E1 /* InvNorm.swift in Sources */,
 				0A21535228F73C5A00C68DDB /* ContentView.swift in Sources */,
 				0A21537A28F73C9600C68DDB /* UnitLabel.swift in Sources */,
 				0AB47C9628F7FF0800BE2943 /* Unit3Hub.swift in Sources */,
 				0AB47C9428F7FF0400BE2943 /* Unit2Hub.swift in Sources */,
+				0ADE8F1328FA7EDF00D720E1 /* InverseNormalFunction.swift in Sources */,
 				0AB47CA028F7FF2100BE2943 /* Unit8Hub.swift in Sources */,
 				0AB47CA228F7FF2900BE2943 /* Unit9Hub.swift in Sources */,
 				0AB47C9228F7FEF900BE2943 /* Unit1Hub.swift in Sources */,
 				0AB47C9A28F7FF1300BE2943 /* Unit5Hub.swift in Sources */,
 				0AB47C9C28F7FF1800BE2943 /* Unit6Hub.swift in Sources */,
+				0A526D7128FA4B7300F55A74 /* Extensions and Functions.swift in Sources */,
 				0AB47C8E28F7FDB500BE2943 /* PageDeciders.swift in Sources */,
 				0AB47CA528F800DF00BE2943 /* PrimaryButton.swift in Sources */,
 				0A21535028F73C5A00C68DDB /* Statsing_CalculatorApp.swift in Sources */,
@@ -643,6 +679,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A526D7F28FA5B5100F55A74 /* XCRemoteSwiftPackageReference "StatKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JimmyMAndersson/StatKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A526D8028FA5B5100F55A74 /* StatKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A526D7F28FA5B5100F55A74 /* XCRemoteSwiftPackageReference "StatKit" */;
+			productName = StatKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0A21534428F73C5A00C68DDB /* Project object */;
 }

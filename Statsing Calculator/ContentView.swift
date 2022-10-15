@@ -10,35 +10,15 @@ import SwiftUI
 struct ContentView: View {
     
     @State var pages = pageInfoData
+    @FocusState var showKeyboard: Bool
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ScrollView {
                 VStack {
                     ForEach(pages, id: \.self, content: { newPage in
                         NavigationLink(destination: {
-                            switch newPage.unit {
-                            case 1:
-                                Unit1Hub()
-                            case 2:
-                                Unit2Hub()
-                            case 3:
-                                Unit3Hub()
-                            case 4:
-                                Unit4Hub()
-                            case 5:
-                                Unit5Hub()
-                            case 6:
-                                Unit6Hub()
-                            case 7:
-                                Unit7Hub()
-                            case 8:
-                                Unit8Hub()
-                            case 9:
-                                Unit9Hub()
-                            default:
-                                Text("Error 01: No View Found for Unit")
-                            }
+                            numToUnitView(unit: newPage.unit, keyboardFocus: _showKeyboard)
                         }, label: {
                             UnitLabel(unit: newPage.unit, subject: newPage.subject, icon:
                                         newPage.icon, invert: newPage.invert)
